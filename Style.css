@@ -1,0 +1,72 @@
+body{
+    background-color: skyblue;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.oclock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50vh;
+    transform: translate(-50%, -50%);
+  }
+
+h2{
+    text-transform:  uppercase;
+    letter-spacing:  4px;
+    font-size: 5vh;
+    text-align: center;
+    color: white;  
+    margin-top: 5%;  
+}
+
+.clock{
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+.clock span{
+    width: 200px;
+    height: 100px;
+    background: rgb(155, 149, 194);
+    /* margin-right: 30%; */
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    opacity: 8;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0.3);
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    font-family: cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position:absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: green;
+    display: flex;
+    align-items: center;
+}
